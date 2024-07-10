@@ -1,30 +1,18 @@
 import java.util.Scanner;
 
+import static com.sun.org.apache.bcel.internal.classfile.Utility.printArray;
+
 public class Main {
     public static void main(String[] args) {
 
-    }
 
 
-    }
-    enum Days {
-        monday, tuesday, wednesday, day;
 
-        public static void main(String[] args) {
-           Scanner sc = new Scanner(System.in);
-           Days day = Days.valueOf(sc.nextLine());
-
-            switch (day) {
-                case monday:
-                    System.out.println("monday");
-                    break;
-                case tuesday:
-                    System.out.println("tuesday");
-                    break;
-                case wednesday:
-                    System.out.println("wednesday");
-            }
         }
 
+    public static void selectionSort(int[] arr) {
+    }
 }
+
+
 
